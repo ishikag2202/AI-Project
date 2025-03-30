@@ -38,7 +38,7 @@ The ludo board consists of a cross-shaped layout with four colored bases, a cent
 ## Running the Game
 To start the game, run the main Python script:
 ~~~bash
-python game.py
+python game.ipynb
 ~~~
 
 
