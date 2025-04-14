@@ -94,10 +94,12 @@ A player wins the game when all four of their tokens successfully reach the home
 
 ## Expectiminimax Algorithm  
 
-In our Ludo AI project, the Minimax algorithm is incorporated to  
-enable the AI agent to make optimal moves by simulating all possible  
-game scenarios, evaluating them using a heuristic function, and choosing  
-the best possible action to maximize its chances of winning.  
+The Expectiminimax algorithm in game theory is a decision-making algorithm used for games with two players (MAX and MIN) and random events (chance nodes). It evaluates a game tree by:
+
+- Maximizing the payoff at MAX nodes (best move for MAX).
+- Minimizing the payoff at MIN nodes (worst move for MAX).
+- Computing the expected value at chance nodes based on probabilities of random outcomes. It returns the optimal move for MAX, considering both strategic 
+  choices and randomness.
 
 ![](image2.jpg)  
 
