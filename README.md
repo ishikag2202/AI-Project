@@ -3,14 +3,14 @@
 - [Game Setup](#game-setup)
 - [Running the Game](#running-the-game)
 - [Game Play](#game-play)
-- [Expectiminimax Algorithm](#expectiminimax-algorithm)
+- [Expectimax Algorithm](#expectimax-algorithm)
 - [Architecture](#architecture)
 - [Conclusion](#conclusion)
 - [Team](#team)
 
 ## Introduction 
 
-This project is a Ludo game developed using Python's Pygame library. The primary objective is to simulate a playable Ludo game where AI and human players can participate. The game logic includes movement rules, safe zones, token captures, and a strategic AI decision-making process using the Expectiminimax Algorithm. The AI players make calculated moves by evaluating board positions and potential future scenarios, providing a challenging and engaging experience.
+This project is a Ludo game developed using Python's Pygame library. The primary objective is to simulate a playable Ludo game where AI and human players can participate. The game logic includes movement rules, safe zones, token captures, and a strategic AI decision-making process using the Expectimax Algorithm. The AI players make calculated moves by evaluating board positions and potential future scenarios, providing a challenging and engaging experience.
 
 
 
@@ -92,9 +92,9 @@ A player wins the game when all four of their tokens successfully reach the home
 
 ![](image4.jpg)
 
-## Expectiminimax Algorithm  
+## Expectimax Algorithm  
 
-The Expectiminimax algorithm in game theory is a decision-making algorithm used for games with two players (MAX and MIN) and random events (chance nodes). It evaluates a game tree by:
+The Expectimax Algorithm in game theory is a decision-making algorithm used for games with two players (MAX and MIN) and random events (chance nodes). It evaluates a game tree by:
 
 - Maximizing the payoff at MAX nodes (best move for MAX).
 - Minimizing the payoff at MIN nodes (worst move for MAX).
@@ -150,15 +150,15 @@ Game Engine
 
 - Game Board Representation: Implemented using a grid-based system where each tile corresponds to a specific position in the game.
 
-AI Strategy - Expected Minimax Algorithm
+AI Strategy - Expectimax Algorithm
 
 - State Representation: Captures the current board state, including token positions, dice roll outcomes, and possible moves.
 
 - Action Selection: The AI evaluates all possible moves, assigns weights based on game rules, and selects the best possible move.
 
 - Heuristic Evaluation: AI uses heuristic scoring to evaluate board positions, considering safety, risk, and game progress.
-### Expectiminimax Algorithm in Ludo AI
-The Expected Minimax Algorithm is used to enhance AI decision-making by considering both strategic planning and probabilistic outcomes of dice rolls in the game.
+### Expectimax Algorithm in Ludo AI
+The Expectimax Algorithm is used to enhance AI decision-making by considering both strategic planning and probabilistic outcomes of dice rolls in the game.
 
 
 This approach allows the AI to make more strategic decisions by predicting the long-term impact of its moves in an uncertain environment.
@@ -166,7 +166,7 @@ This approach allows the AI to make more strategic decisions by predicting the l
 
 ## Conclusion
 
-This project showcases an interactive Ludo game with AI integration, leveraging the Expectiminimax algorithm to enhance decision-making. The AI component evaluates all possible moves while considering probabilities and uncertainties, allowing for more strategic and adaptive gameplay. By simulating intelligent decision-making, the AI creates a challenging and competitive environment for both human and AI-controlled players. The use of Expectiminimax ensures that the AI can anticipate various outcomes based on probabilistic reasoning, making its moves more calculated and efficient. This combination of strategic planning, probabilistic analysis, and adaptive decision-making modernizes the classic Ludo experience, offering a more engaging and dynamic gameplay experience enriched by advanced AI techniques.
+This project showcases an interactive Ludo game with AI integration, leveraging the expectimax algorithm to enhance decision-making. The AI component evaluates all possible moves while considering probabilities and uncertainties, allowing for more strategic and adaptive gameplay. By simulating intelligent decision-making, the AI creates a challenging and competitive environment for both human and AI-controlled players. The use of expectimax ensures that the AI can anticipate various outcomes based on probabilistic reasoning, making its moves more calculated and efficient. This combination of strategic planning, probabilistic analysis, and adaptive decision-making modernizes the classic Ludo experience, offering a more engaging and dynamic gameplay experience enriched by advanced AI techniques.
 
 
 
