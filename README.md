@@ -8,7 +8,7 @@
 - [Conclusion](#conclusion)
 - [Team](#team)
 
-## Introduction 
+# Introduction 
 
 This project is a Ludo game developed using Python's Pygame library. The primary objective is to simulate a playable Ludo game where AI and human players can participate. The game logic includes movement rules, safe zones, token captures, and a strategic AI decision-making process using the Expectimax Algorithm. The AI players make calculated moves by evaluating board positions and potential future scenarios, providing a challenging and engaging experience.
 
